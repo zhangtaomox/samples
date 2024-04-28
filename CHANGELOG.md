@@ -6,6 +6,6 @@
 
 - v1.0.0 release
 
-## [1.0.3] - 2024-04-28
+## [1.0.4] - 2024-04-28
 
 - ADD: add release workflow
