@@ -1,0 +1,24 @@
+[package]
+name = "samples"
+version = "0.1.0"
+edition = "2021"
+license = "MIT or Apache-2.0"
+authors = ["zhangtaomox@gmail.com"]
+description = "sample lines from a text file(plain text, csv, log...) or from stdin"
+readme = "README.md"
+homepage = "https://github.com/zhangtaomox/samples"
+repository = "https://github.com/zhangtaomox/samples"
+keywords = ["sample", "rand", "cli"]
+categories = ["command-line-utilities"]
+
+[profile.release]
+strip = true
+lto = true
+codegen-units = 1
+panic = "abort"
+opt-level = "z"
+
+
+[dependencies]
+rand = "0.8.5"
+structopt = "0.3.26"
