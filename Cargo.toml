@@ -2,7 +2,7 @@
 name = "samples"
 version = "1.0.5"
 edition = "2021"
-license = "MIT or Apache-2.0"
+license = "Apache-2.0"
 authors = ["zhangtaomox@gmail.com"]
 description = "sample lines from a text file(plain text, csv, log...) or from stdin"
 readme = "README.md"
