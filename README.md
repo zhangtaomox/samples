@@ -11,7 +11,7 @@ cargo install samples
 ### Manual
 
 ```bash
-wget https://github.com/rodrigobdz/samples/releases/download/v0.1.0/samples -O samples
+wget https://github.com/zhangtaomox/samples/releases/download/v1.0.0/samples -O samples
 ```
 
 ## Usage
